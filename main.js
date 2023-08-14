@@ -114,8 +114,6 @@ const refreshUsingLocalStorage = () => {
     
         listTaskContainer.appendChild(taskItemContainer);  
    });
-
-   console.log(tasksFromLocalStorage);
 }
 
 refreshUsingLocalStorage();
